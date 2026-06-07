@@ -1,0 +1,11 @@
+[package]
+name = "differential-regression"
+version = "0.1.0"
+edition = "2021"
+description = "Regression testing for specification patches using behavioral ledgers"
+license = "MIT"
+keywords = ["regression", "testing", "spec", "ledger"]
+categories = ["development-tools", "development-tools::testing"]
+
+[dependencies]
+simulation-ledger = { path = "../simulation-ledger" }
